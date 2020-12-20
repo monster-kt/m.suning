@@ -1,0 +1,140 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: surui
+ * @Date: 2020-12-01 15:07:33
+ * @LastEditors: surui
+ * @LastEditTime: 2020-12-20 11:42:52
+-->
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏宁易购-送货更准时</title>
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top-type">
+        <!-- nav -->
+        <div class="content-one">
+            <a href="#" class="classify"><img src="image/classify.png" alt="classify"></a>
+            <div class="top-wrapper"><img src="image/top.gif" alt=""></div>
+            <a class="login" href="#"><img src="image/login.png" alt="login"></a>
+        </div>
+        <!-- 搜索框 -->
+        <div class="content-two">
+            <a href="#" class="search">
+                <i class="search-icon"></i>
+                <form action="#">
+                    <input type="text" placeholder="爆款回购 抢1212元券">
+                </form>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- swiper -->
+    <div class="swiper">
+        <img src="image/swiper-bg.jpg" alt="swiper-bg" class="swiper-bg">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/swiper1.png" alt="swiper1"></div>
+                <div class="swiper-slide"><img src="image/swiper2.png" alt="swiper2"></div>
+                <div class="swiper-slide"><img src="image/swiper3.jpg" alt="swiper3"></div>
+                <div class="swiper-slide"><img src="image/swiper4.jpg" alt="swiper4"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <a href="#"><img src="image/banner1.gif" alt="banner1"></a>
+        <a href="#"><img src="image/banner2.gif" alt="banner2"></a>
+        <a href="#"><img src="image/banner3.gif" alt="banner3"></a>
+    </div>
+
+    <!-- list -->
+    <div class="list">
+        <ul>
+            <li>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+                <a href="#">
+                    <div class="enter-img"><img src="image/enter.png" alt="enter"></div>
+                    <span>苏宁秒杀</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- new -->
+    <div class="new">
+        <a href="#" class="newItem1"><img src="image/newItem1.png" alt="newItem1"></a>
+        <div class="hor-gap2"></div>
+        <a href="#" class="newItem2"><img src="image/newItem2.gif" alt="newItem2"></a>
+        <div class="hor-gap2"></div>
+        <a href="#" class="newItem2"><img src="image/newItem2.gif" alt="newItem2"></a>
+    </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            loop: true,
+            autoplay: true,//等同于以下设置
+            /*autoplay: {
+                delay: 3000, 
+                //动画播放的间隔时间
+                stopOnLastSlide: false,//如果设置为true，当切换到最后一个slide时停止自动切换。（loop模式下无效）
+                disableOnInteraction: true,
+                用户操作swiper之后，是否禁止。默认为true：停止。如果设置为false，
+                用户操作swiper之后自动切换不会停止，每次都会重新启动autoplay。操作包括触碰，拖动，
+                点击pagination等。
+            },*/
+        });
+    </script>
+</body>
+
+</html>

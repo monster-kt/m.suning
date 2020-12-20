@@ -1,0 +1,274 @@
+@charset "UTF-8";
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-width: 320px;
+  max-width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  overflow-x: hidden;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+*,
+a:focus,
+input:focus {
+  outline: 0;
+}
+.top-type {
+  width: 100%;
+  background-color: #FFDB47;
+}
+.top-type .content-one {
+  width: 13.64rem;
+  height: 1.76rem;
+  margin: 0 0.68rem;
+  display: flex;
+}
+.top-type .content-one a img {
+  width: 0.72rem;
+}
+.top-type .content-one .top-wrapper {
+  flex: 1;
+  text-align: center;
+}
+.top-type .content-one .top-wrapper img {
+  width: 7.8rem;
+  height: 1.52rem;
+}
+.top-type .content-two {
+  width: 15rem;
+  height: 1.84rem;
+  padding: 0 0.48rem;
+}
+.top-type .content-two .search {
+  position: relative;
+  display: block;
+  width: 14.04rem;
+  height: 1.4rem;
+}
+.top-type .content-two .search i {
+  position: absolute;
+  top: 0.56rem;
+  left: 0.4rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABGtJREFUWAntl8tr1EkQxzMT4qhBo/FBFLMylyWQwJIHiqCnqAdFXfci6klZkFW8uUpUPKjgHyAiomgCHnYRMRg8uHtSlyWuk5dBJ3pJloCPKIkoiUJmJn5q7PrRv4e/yTxO4g96qrq6Ht/uru6uKSv7/oWvQCR8OHx0dHR03sTExIpUKrWgoqLiVUNDw5tIJJIJtwofzQvQ0NDQgsnJyS24/HlmZmYjdKnHfYp+ElC3aZ1NTU0Jz3jO7qwADQ8Pzx0fHz+MtzaALM7p1SgA6gHs0ebm5u5Z2+RS7O/vX8OW3EDvhwDdj8heEvgDQGugy6BRrx7ya9XV1Qfj8fgn75i3H7pCPT09ewlwBaO5luEz+A6CdDLzpCUvk5waGxtrRfYLbQ+2MWv8IfzOlpaWl5bMx34VkAFz3bJ4C4jj5MVVaNqSB7K9vb2rM5nMOQZ3WwrPy8vL1zY2Nr6zZC42EJDZpntoZlcGAI9p2wHzv8t6Fh0mdoCVOo9qhVH/i5Xd8rVJ+fZbEtjkjAOmsrJyfSFgBADBLxF8F23GANrc19d3xPA+4gNkTpMmsGzT9rq6ug8+yzwEgLqFn1Nqwla2JZPJJdq3qQuQ3DMMtqkCTiRn8t4mtbcpeSP59MTIqqampo7Z48q7AKG0lf3We+aZJLAqFkuZXJrmTBZ/coJ9OewChMIOK3CHOLH6RbNM8A5OXosjYq3k8LR4nXoByXOQ/QDTqXypKD4z+OpSf+TSJuWVOoDkUkOob9NH76WnBsXSaDTaoz5YpVrllTqA5NVWITT0NrX0CmFfqBErtlJ5pQ4gKSFUiGJRx1z9BFF8v1c5K7RQeaUOIKlnVIhijfKlpuRNtfoE3LjySh1AUlwhlHqmDMVlJqdUr2SUyf5oOfOlhgMIEHICsq83RlHzalu2JWM3qCdi/qe8UgeQCFC4rQNQKSFK+g0MDCzHoXPUiXffG8ALyL579kgJ4TUopp9Opw9hn331AfOA52TE688FiJs0IYqixLbFTD3jtSmoPzg4WIu/39WYOBeVt6kLkBk4ainslnrG6hfMTk9P/4axXL6SGo9YnT+CnPkAcUN3Y9CuyqzUeUDt1H6hFD9b1Rb+JDG0PlJxlvoAiZSCXGbzMKvxZc9vkk8ncRSob/RCCbZzVIEydkx5Lw0MYP4dyKo8FwOcRdj/M6zUY9q2XMA4TXH0ziYSiX9EX3ywIt1C5cPXafH5pef+DRSqCqXmIk7Gn/Q3q8zQ19Au81DK2zRFgFpanMDr6LdaAd/zT6MKcGsZ+xd5dhHgr3KIfoW6ti4UkATHQbnUwMxKiqsqkeXzEbCdvNwnNrJq+Duh9kGgcgJSY6mBTdkplZ7vlVY9Q1ME66Jd5jTdhcorkN16cvEK9vst/Yus4EHtzxqQGuAsIpUeK7YJvpZgAm4+bZT+CNs4HIvF/q6vr3cea7UVKvY2KAGLbJX+gcwbkO28UF5AsX0XACP/2Z6ypT/pKhbqsyR2JPoKAAWe9JIE+CadfAZDI9Qzc39rMQAAAABJRU5ErkJggg==);
+  background-size: 100% 100%;
+}
+.top-type .content-two .search form {
+  height: 100%;
+}
+.top-type .content-two .search form input {
+  box-sizing: border-box;
+  border: none;
+  width: 100%;
+  height: 1.28rem;
+  background-color: #f2f2f2;
+  border-radius: 0.64rem;
+  font-size: 0.56rem;
+  color: #999999;
+  padding: 0.06rem 0.4rem 0 1.28rem;
+}
+.swiper {
+  position: relative;
+  height: 4.58rem;
+}
+.swiper .swiper-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15rem;
+  height: 4.58rem;
+  z-index: -99;
+}
+.swiper .swiper-container {
+  position: absolute;
+  width: 14.04rem;
+  height: 4.58rem;
+  top: 0;
+  left: 0.48rem;
+  z-index: 1;
+  border: solid 1px transparent;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.swiper .swiper-container .swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+  /*之前是ease-out*/
+  -moz-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+.swiper .swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper .swiper-container .swiper-slide img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15rem;
+  height: 7.36rem;
+}
+.swiper .swiper-container .swiper-pagination {
+  bottom: 0;
+  height: 1.2rem;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: #333;
+  opacity: 0.7;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: #FFDB47;
+  width: 0.4rem;
+  border-radius: 0.4rem;
+  opacity: 1;
+}
+.banner {
+  display: flex;
+  width: 15rem;
+  height: 3.9852rem;
+  background-color: #fff;
+}
+.banner a {
+  flex: 1;
+}
+.banner a img {
+  width: 100%;
+}
+.list ul {
+  width: 30rem;
+  height: 5.6rem;
+}
+.list ul li {
+  position: relative;
+  float: left;
+  width: 15rem;
+  height: 5.68rem;
+}
+.list ul li a {
+  float: left;
+  width: 3rem;
+  height: 2.84rem;
+  text-align: center;
+}
+.list ul li a .enter-img {
+  position: relative;
+  width: 1.68rem;
+  height: 1.68rem;
+  margin: 0.48rem auto 0;
+}
+.list ul li a .enter-img img {
+  width: 100%;
+  height: 100%;
+}
+.list ul li a span {
+  display: block;
+  width: 3rem;
+  height: 0.56rem;
+  font-size: 0.44rem;
+  line-height: 0.56rem;
+  margin-top: 0.1rem;
+}
+.new {
+  display: flex;
+  width: 15rem;
+  height: 4.68rem;
+  margin-top: 0.96rem;
+}
+.new a {
+  display: block;
+  width: 3.7rem;
+  height: 100%;
+}
+.new .newItem1 {
+  width: 7rem;
+}
+.new .newItem1 img {
+  width: 100%;
+  height: 100%;
+}
+.new .newItem2 img {
+  width: 100%;
+  height: 100%;
+}
+.new .hor-gap2 {
+  width: 2px;
+  height: 100%;
+  line-height: 0;
+  background: #f2f2f2;
+}

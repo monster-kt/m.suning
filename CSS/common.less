@@ -1,0 +1,48 @@
+// 设置公共common.less 文件：
+//  1. 设置好最常见的屏幕尺寸，利用媒体查询设置不同的html字体大小，因为除了首页其他页面也需要。
+//  2. 我们关心的尺寸有320px、360px、375px、400px、414px、424px、480px、540px、720px、750px
+//  3. 划分的份数为 15 等分
+//  4. 默认html字体大小为 50 px
+
+
+@charset "UTF-8";
+// 如果是在PC端打开的手动设置为 默认字体大小为50px 
+// 一定要写到最上面
+@font-size:50px;
+html{
+    font-size: @font-size;
+}
+// 设置常见的屏幕尺寸，修改里面的html文字大小 份数为 15
+@nu: 15;
+
+.min-width(@min-width:750px){
+    @media screen and (min-width: @min-width){
+        html{
+            @font-size: @min-width / @nu;
+            font-size: @font-size;
+        }
+    }
+}
+// 320
+.min-width(320px);
+
+// 360
+.min-width(360px);
+
+// 375 iphone 678
+.min-width(375px);
+
+// 400
+.min-width(400px);
+
+// 424
+.min-width(424px);
+
+// 480
+.min-width(480px);
+// 540
+.min-width(540px);
+// 720
+.min-width(720px);
+// 750
+.min-width();
